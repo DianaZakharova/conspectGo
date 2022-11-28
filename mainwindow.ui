@@ -1433,7 +1433,8 @@
      <string>Деловой иностранный язык для программистов</string>
     </property>
     <property name="icon">
-     <iconset theme="дж"/>
+     <iconset theme="дж">
+      <normaloff>.</normaloff>.</iconset>
     </property>
     <property name="checkable">
      <bool>false</bool>
@@ -1508,6 +1509,19 @@
     </property>
     <property name="text">
      <string>Численные методы</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="testlButton_">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>560</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>test dly gita</string>
     </property>
    </widget>
   </widget>
