@@ -517,13 +517,22 @@
       <item>
        <widget class="QPushButton" name="pushButton">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777164</width>
+          <height>16777164</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
         <property name="text">
-         <string>?</string>
+         <string>справка</string>
         </property>
        </widget>
       </item>
